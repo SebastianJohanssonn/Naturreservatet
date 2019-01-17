@@ -7,14 +7,15 @@
     <title>Naturreservatet</title>
 </head>
 <body>
+    <h1>Naturreservatet:</h1>
     <form action="./results.php">
         <p>Antal Apor:</p>
-        <input type="text"><br>
+        <input type="number" name="apor"><br>
         <p>Antal Giraffer:</p>
-        <input type="text"><br>
+        <input type="number" name="giraffer"><br>
         <p>Antal Tigrar:</p>
-        <input type="text"><br>
+        <input type="number" name="tigrar"><br>
         <p>Antal Kokosnötter:</p>
-        <input type="text"><br><br>
+        <input type="number" name="kokos"><br><br>
         <button type="submit">Ditt naturreservat</button>
     </form>
