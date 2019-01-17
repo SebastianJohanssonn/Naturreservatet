@@ -7,6 +7,14 @@
     <title>Naturreservatet</title>
 </head>
 <body>
-    
-</body>
-</html>
+    <form action="./results.php">
+        <p>Antal Apor:</p>
+        <input type="text"><br>
+        <p>Antal Giraffer:</p>
+        <input type="text"><br>
+        <p>Antal Tigrar:</p>
+        <input type="text"><br>
+        <p>Antal Kokosnötter:</p>
+        <input type="text"><br><br>
+        <button type="submit">Ditt naturreservat</button>
+    </form>
