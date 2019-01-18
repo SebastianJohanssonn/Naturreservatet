@@ -5,8 +5,7 @@
         }
 
         class Apa extends Animal {
-            
-            public $image = "<img src='images/monkey.jpg' height='200px' width='200px'>";
+            public $image = "<img src='images/monkey.jpg' class='apa' height='200px' width='200px'>";
             function __construct($name)
             {
                 $this->name = $name;
@@ -16,20 +15,12 @@
                 return $this->name;
             }
             public function makeSound(){
-                return "wefasfasf";
-            }
-            public function getImage(){
-               return $this->image;
-            }
-            public function __toString()
-            {
-                return $this->name;
-    
+                return "ooaa";
             }
         }
 
         class Giraff extends Animal {
-            public $image = "<img src='images/giraffe.jpg' height='200px' width='200px'>";
+            public $image = "<img src='images/giraffe.jpg' class='giraff' height='200px' width='200px'>";
             function __construct($name)
             {
                 $this->name = $name;
@@ -38,15 +29,12 @@
                 return $this->name;
             }
             public function makeSound(){
-                return "wefasfasf";
-            }
-            public function getImage(){
-                return $this->image;
+                return "Fjoooom!";
             }
         }
 
         class Tiger extends Animal {
-            public $image = "<img src='images/tiger.jpg' height='200px' width='200px'>";
+            public $image = "<img src='images/tiger.jpg' class='tiger' height='200px' width='200px'>";
             function __construct($name)
             {
                 $this->name = $name;
@@ -56,15 +44,12 @@
                 return $this->name;
             }
             public function makeSound(){
-                return "wefasfasf";
-            }
-            public function getImage(){
-                return $this->image;
+                return "RAWR!";
             }
         }
 
         class Coconut extends Animal {
-            public $image = "<img src='images/coconut.jpg' height='200px' width='200px'>";
+            public $image = "<img src='images/coconut.jpg' class='coco' height='200px' width='200px'>";
             function __construct($name)
             {
                 $this->name = $name;
@@ -73,11 +58,7 @@
                 return $this->name;
             }
             public function makeSound(){
-                return "wefasfasf";
-            }
-            public function getImage(){
-                return $this->image;
+                return "Duns!";
             }
         }
-        
     ?>
